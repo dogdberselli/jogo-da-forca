@@ -1,9 +1,14 @@
 from random import choice
 
+#palavras predefinidas para escolhas
 palavras = ['python', 'sapato', 'borboleta', 'laranja', 'trator', 'pipoca', 'mulher', 'garoto', 'rapaz', 'jogador', 'bola', 'ovo', 'letra', 'geladeira', 'gol', 'trabalho', 'gerenciamento']
+#função de escolher aleatório entre a variavel palavras
 palavra_escolhida = choice(palavras).lower()
+#armazenamento das letras do usuário
 letras_usuario = []
+#chance predefinida como 5
 chances = 5
+#gatilho de termino de jogo
 ganhou = False
 
 print ('*******************************************')
